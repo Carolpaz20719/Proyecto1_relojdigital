@@ -139,8 +139,6 @@ PSECT udata_bank0
     timer:	    DS	2       ; Varibles para almacenar minutos y segundos del timer
     timer_estados:  DS	1       ; Variable para almacenar el subestado activo del timer
     timer_ban:	    DS	1       ; Banderas para indicar segundos al timer
-    ;bit0 - para el decremento (funcionamiento automático)
-    ;bit1 - para el incremento del contador (apagar alarma automáticamente)
     timer_contador: DS	1       ; Contador para apagar la alrma del timer automáticamente
     
     ; Variables del macro de división
